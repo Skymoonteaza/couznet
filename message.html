@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Messages - CouzNet</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .message-container {
+      display: flex;
+      align-items: center;
+      background: #f1f2f6;
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .message-container img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .message-box {
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 5px;
+      max-width: 80%;
+    }
+
+    .message-box h3 {
+      font-size: 1.4em;
+      color: #0a3d62;
+    }
+
+    .message-box p {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    .reply-container {
+      display: flex;
+      align-items: center;
+      background: #e9f7fd;
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .reply-container img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .reply-box {
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 5px;
+      max-width: 80%;
+    }
+
+    .reply-box p {
+      font-size: 1.2em;
+      color: #555;
+      margin: 0;
+    }
+
+    .reply-section {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .reply-section textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+
+    .reply-section button {
+      padding: 10px;
+      background: #0a3d62;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .reply-section button:hover {
+      background: #1e5f9b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>CouzNet</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#">My Tree</a>
+        <a href="message.html">Messages</a>
+        <a href="#">Heritage</a>
+        <a href="profile.html">Profile</a>
+        <a href="#" class="login">Login / Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Received Message Section -->
+    <section class="message-container">
+      <img src="ariana.jpg" alt="Ariana Grande Labrador">
+      <div class="message-box">
+        <h3>Ariana Grande Labrador</h3>
+        <p><strong>Message:</strong> HI Couz! How are you?</p>
+      </div>
+    </section>
+
+    <!-- Your Reply Section -->
+    <section class="reply-container">
+      <img src="kyla.jpg" alt="Kyla Hazel Montiza">
+      <div class="reply-box">
+        <h3>Kyla Hazel Montiza</h3>
+        <p><strong>Reply:</strong> Hello couz, musta man diha?</p>
+      </div>
+    </section>
+
+    <!-- Reply Box -->
+    <section class="reply-section">
+      <textarea placeholder="Write your message..." rows="4"></textarea>
+      <button type="submit">Send message</button>
+    </section>
+  </main>
+
+  
+</body>
+</html>

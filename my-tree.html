@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Family Tree - CouzNet</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background: #1e3799;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .tree-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .generation {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+
+    .member {
+      margin: 10px;
+      text-align: center;
+    }
+
+    .member img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid #1e3799;
+    }
+
+    .member p {
+      margin: 5px 0 0;
+      font-size: 0.9em;
+    }
+
+    .line {
+      width: 2px;
+      height: 20px;
+      background: #1e3799;
+      margin: 0 auto;
+    }
+
+    .horizontal-line {
+      height: 2px;
+      background: #1e3799;
+      width: 80%;
+      margin: 5px auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CouzNet</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="my-tree.html">My Tree</a>
+      <a href="message.html">Messages</a>
+      <a href="heritage.html">Heritage</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="text-align:center;">Father's Side Family Tree</h2>
+    <div class="tree-container">
+      
+      <!-- Grandparents -->
+      <div class="generation">
+        <div class="member">
+          <img src="lola.jpg" alt="Lola Maria">
+          <p>Maria Montiza</p>
+        </div>
+        <div class="member">
+          <img src="lolo.jpg" alt="Lolo Mario">
+          <p>Mario Montiza</p>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <!-- Parents -->
+      <div class="generation">
+        <div class="member">
+          <img src="mama.jpg" alt="Mama Analyn">
+          <p>Analyn Sinon</p>
+        </div>
+        <div class="member">
+          <img src="papa.jpg" alt="Papa Reynaldo">
+          <p>Reynaldo Montiza</p>
+        </div>
+      </div>
+
+      <div class="line"></div>
+      <div class="horizontal-line"></div>
+
+      <!-- Siblings -->
+      <div class="generation">
+        <div class="member">
+          <img src="ate.jpg" alt="Hanzel">
+          <p>Hanzel Montiza</p>
+        </div>
+        <div class="member">
+          <img src="kyla.jpg" alt="Kyla">
+          <p>Kyla Montiza (You)</p>
+        </div>
+        <div class="member">
+          <img src="kc.jpg" alt="Khrizzhia">
+          <p>Khrizzhia Montiza</p>
+        </div>
+        <div class="member">
+          <img src="tababy.jpg" alt="April">
+          <p>April Montiza</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+ 
+</body>
+</html>
+
